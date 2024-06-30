@@ -3,12 +3,18 @@
 This repository contains a Jupyter notebook (X rays prediction using transfer learning.ipynb) that demonstrates the process of building a deep learning model for X-ray image classification using transfer learning with MobileNetV2 and VGG16 architectures. The model predicts whether an X-ray image shows signs of pneumonia or is normal.
 
 # Notebook Overview
-# Data Collection: The notebook downloads and extracts the Chest X-ray dataset from Kaggle using the Kaggle API.
-# Data Preprocessing: The dataset is preprocessed using image augmentation techniques and divided into training, validation, and test sets.
-# Model Building: Two transfer learning models, MobileNetV2 and VGG16, are used as base models. The fully connected layers are added on top of these models for binary classification.
-# Model Training: The models are trained on the training data and evaluated on the validation data.
-# Model Evaluation: The notebook includes evaluation metrics such as accuracy, precision, recall, and confusion matrix to assess the model's performance.
-# Model Prediction: The trained model is used to predict new X-ray images and display the predictions.
+# Data Collection: 
+The notebook downloads and extracts the Chest X-ray dataset from Kaggle using the Kaggle API.
+# Data Preprocessing: 
+The dataset is preprocessed using image augmentation techniques and divided into training, validation, and test sets.
+# Model Building: 
+Two transfer learning models, MobileNetV2 and VGG16, are used as base models. The fully connected layers are added on top of these models for binary classification.
+# Model Training: 
+The models are trained on the training data and evaluated on the validation data.
+# Model Evaluation: 
+The notebook includes evaluation metrics such as accuracy, precision, recall, and confusion matrix to assess the model's performance.
+# Model Prediction: 
+The trained model is used to predict new X-ray images and display the predictions.
 # Files Included
 X rays prediction using transfer learning.ipynb: Jupyter notebook containing the entire workflow.
 kaggle.json: Kaggle API token required for dataset download (not included in this repository).
