@@ -31,22 +31,19 @@ Pillow
 Usage
 Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/your-username/your-repository.git
+# Copy code
+git clone [https://github.com/your-username/your-repository.git](https://github.com/muhammad-ahsan12/X_rays-prediction-using-Transfer-Learning/tree/main/Xrays%20TL%20project)
 cd your-repository
 Install Dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
-Run the Notebook:
+# Run the Notebook:
 Open and execute the X rays prediction using transfer learning.ipynb notebook in a Jupyter environment (e.g., Google Colab or JupyterLab).
 
-Explore and Modify:
+# Explore and Modify:
 Explore the notebook to understand the process. Modify parameters, augmentations, or model architectures as needed for experimentation.
 
-Saving and Using the Model:
+# Saving and Using the Model:
 
 The trained model (TL_X_rays_model.h5) can be loaded and used for predictions as demonstrated in the notebook.
 Use appropriate methods to load and deploy the model in your applications.
